@@ -92,26 +92,22 @@ body{
     transform-origin: bottom center;
     bottom: 50%;
     border-radius: 50% 50% 0 0;
-    box-shadow: .9px 9px gold;
     transition: all ease;
 }
 
 .arrows .hour{
-    /* position: absolute; */
     height: 40%;
     width: 6px;
-    background-color: red;
+    background-color: gold;
     transform: rotate(30deg);
 }
 .arrows .minute{
-    /* position: absolute; */
     height: 65%;
     width: 5px;
-    background-color: red;
+    background-color: gold;
     transform: rotate(120deg);
 }
 .arrows .second{
-    /* position: absolute; */
     height: 70%;
     width: 3px;
     background-color: whitesmoke;
