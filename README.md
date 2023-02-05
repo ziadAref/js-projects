@@ -2,4 +2,4 @@
 
 ## Simple JS projects for Beginners ❤
 
-live at : ziadaref.github.io/js-projects
+live at : [simple JS-projects](ziadaref.github.io/js-projects)
