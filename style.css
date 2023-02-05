@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock{
+    position: relative;
+    /* margin-top: 20vh; */
+    background-color: black;
+    color: gold;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px double gold;
+    /* box-shadow: 1px 1px 5px red; */
+}
+.clock div::selection{
+    display: none;
+}
+.clock div{
+    cursor:default;
+}
+.clock div .twelve{
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.clock div .six{
+    position: absolute;
+    font-size: 20px;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.clock div .three{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.clock div .nine{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.arrows{
+    height: 150px;
+    width: 20px;
+    /* : 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: aqua; */
+}
+
+.arrows::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gold;
+    z-index: 3;
+}
+
+.arrows div{
+    position: absolute;
+    transform-origin: bottom center;
+    bottom: 50%;
+    border-radius: 50% 50% 0 0;
+    box-shadow: .9px 9px gold;
+    transition: all ease;
+}
+
+.arrows .hour{
+    /* position: absolute; */
+    height: 40%;
+    width: 6px;
+    background-color: red;
+    transform: rotate(30deg);
+}
+.arrows .minute{
+    /* position: absolute; */
+    height: 65%;
+    width: 5px;
+    background-color: red;
+    transform: rotate(120deg);
+}
+.arrows .second{
+    /* position: absolute; */
+    height: 70%;
+    width: 3px;
+    background-color: whitesmoke;
+    /* transform: rotate(290deg); */
+    box-shadow: none;
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.colors div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 30px;
+    /* border: 2px solid gold; */
+    cursor: pointer;
+}
+
+.colors .black{
+    background-color: black;
+    /* margin-left: 10px; */
+}
+.colors .white{
+    background-color: white;
+    margin-left: 10px;
+}
+.colors .red{
+    background-color: red;
+    margin-left: 10px;
+}
+.colors .blue{
+    background-color: blue;
+    margin-left: 10px;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.counter .buttons button{
+    padding: 10px 20px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decrease{
+    background-color: red;
+    color: white;
+}
+.reset{
+    background-color: black;
+    color: white;
+}
+.increase{
+    background-color: green;
+    color: white;
+}
+
+.counterInt{
+    color :gold;
+}
