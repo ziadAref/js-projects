@@ -58,8 +58,6 @@ black.addEventListener("click", ()=>{
     blue.style.border = "none"
     white.style.border = "none"
     red.style.border = "none"
-    hourz.style.backgroundColor = "gold"
-    minutez.style.backgroundColor = "gold"
     
 })
 white.addEventListener("click", ()=>{
@@ -68,8 +66,7 @@ white.addEventListener("click", ()=>{
     black.style.border = "none"
     blue.style.border = "none"
     red.style.border = "none"
-    hourz.style.backgroundColor = "white"
-    minutez.style.backgroundColor = "white"
+   
     
 })
 red.addEventListener("click", ()=>{
@@ -78,8 +75,7 @@ red.addEventListener("click", ()=>{
     black.style.border = "none"
     white.style.border = "none"
     blue.style.border = "none"
-    hourz.style.backgroundColor = "yellow"
-    minutez.style.backgroundColor = "yellow"
+  
     
 })
 blue.addEventListener("click", ()=>{
@@ -88,8 +84,7 @@ blue.addEventListener("click", ()=>{
     black.style.border = "none"
     white.style.border = "none"
     red.style.border = "none"
-    hourz.style.backgroundColor = "blue"
-    minutez.style.backgroundColor = "blue"
+ 
     
 })
 
