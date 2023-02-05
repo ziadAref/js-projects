@@ -7,7 +7,7 @@ body{
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    background-color: darkgray;
+    background-color: black;
 }
 
 .container{
@@ -138,6 +138,7 @@ body{
 
 .colors .black{
     background-color: black;
+    border: 2px solid gold; 
     /* margin-left: 10px; */
 }
 .colors .white{
@@ -184,4 +185,7 @@ body{
 
 .counterInt{
     color :gold;
+    background-color: black;
+    border: 2px solid gold;
+    padding: 4px 10px;
 }
